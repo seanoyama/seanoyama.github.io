@@ -74,7 +74,12 @@ nav {
 }
 
 .headbox{
-    background-image: linear-gradient(to top, #131313 0%, #dddddd 10%);
+    background-image: url('images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner{
+    width: 2560px;
 }
 
 .mainbox a:link{
@@ -172,10 +177,6 @@ hr{
     align-items:center;
     list-style: none;
     text-align: center;
-}
-
-.draw{
-    height: 200px;
 }
 
 .bottom-images{
