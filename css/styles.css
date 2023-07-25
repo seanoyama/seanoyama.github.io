@@ -203,3 +203,12 @@ hr{
     animation: 1s ease-in 0s 1 fadein;
     scale: 100%;
 }
+
+
+/*mobile*/
+@media screen and (max-width:500px){
+    .navbar{
+        background: #fff;
+    }
+    
+}
