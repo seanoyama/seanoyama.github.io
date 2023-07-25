@@ -1,0 +1,205 @@
+:root{
+}
+
+body{
+    margin: 0;
+    font-family: 'Ysabeau Office', sans-serif;
+    background-image: url('../images/paper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    height: 80px;
+    scale: 1;
+    transition: scale 0.25s;
+}
+.logo:hover{
+    scale:1.1
+}
+
+nav {
+    box-sizing:border-box;
+    font-family:Helvetica, sans-serif
+}
+
+.navbar {
+    background: #333333;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.fa-gem{
+    margin-right: 0.5rem
+}
+
+.navbar__menu{
+    display:flex;
+    align-items:center;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-item{
+    height:80px;
+}
+
+.navbar__links{
+    color:#fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-size: 20px;
+    transition: background-color 0.25s;
+}
+
+.headbox{
+    background-image: url('../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.banner{
+    width: 2560px;
+}
+
+.mainbox a:link{
+}
+.mainbox a:visited{
+}
+
+.dropdown .drop {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1.8rem 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    display:flex;
+    align-items: center;
+    transition: background-color 0.25s;
+    
+}
+
+.drop-content{
+    display:none;
+    position: absolute;
+    background-color: #696969;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.drop-content a{
+    float:none;
+    color: #fff;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-align: left;
+}
+
+.drop-content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown:hover .drop-content{
+    display: block;
+}
+
+.navbar a:hover, .dropdown:hover .drop:hover{
+    background-color: rgb(0, 30, 94);
+    color: white;
+}
+
+.drawings{
+    align-items: center;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1500px;
+}
+
+h1, h2, h3{
+    padding: 0 2rem;
+}
+
+p1{
+    position: relative;
+    left: 3rem;
+}
+
+.intro{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+hr{
+    border: 1px solid;
+}
+
+.f-container{
+    background-color: #333;
+    color: wheat;
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.f-list{
+    display:flex;
+    align-items:center;
+    list-style: none;
+    text-align: center;
+}
+
+.bottom-images{
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes fadein {
+    0%{
+        opacity: 0%;
+        scale: 80%;
+    }
+    100%{
+        opacity: 100%;
+        scale:100%;
+    }
+}
+
+.hi{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px 0;
+    animation: 1s ease-in 0s 1 fadein;
+    scale: 100%;
+}

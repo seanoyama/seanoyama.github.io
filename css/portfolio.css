@@ -4,7 +4,7 @@
 body{
     margin: 0;
     font-family: 'Ysabeau Office', sans-serif;
-    background-image: url('images/paper.jpg');
+    background-image: url('../images/paper.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +24,7 @@ nav {
 }
 
 .navbar {
-    background: #131313;
+    background: #333333;
     height: 80px;
     display:flex;
     justify-content: center;
@@ -74,9 +74,10 @@ nav {
 }
 
 .headbox{
-    background-image: url('images/banner.png');
+    background-image: url('../images/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 200px;
 }
 .banner{
     width: 2560px;
@@ -163,7 +164,7 @@ hr{
 }
 
 .f-container{
-    background-color: #131313;
+    background-color: #333;
     color: wheat;
     position: relative;
     height: 100px;
@@ -184,21 +185,15 @@ hr{
     justify-content: center;
 }
 
-@keyframes fadein {
-    0%{
-        opacity: 0%;
-        scale: 90%;
-    }
-    100%{
-        opacity: 100%;
-        scale:100%;
-    }
+.gallery{
+    height: 300px;
+    transition: scale 0.25s;
 }
 
-.hi{
+.gallery:hover{
+    scale: 105%;
+}
+
+figure{
     text-align: center;
-    font-size: 2rem;
-    padding: 10px 0;
-    animation: 2s ease-in 0s 1 fadein;
-    scale: 100%;
 }
