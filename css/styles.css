@@ -215,7 +215,9 @@ hr{
         padding: 0;
     }
     .nav-item{
-        scale: 80%;
+    }
+    .logo{
+        height: 60px;
     }
     .bottom-images img{
         scale: 60%;
@@ -227,6 +229,45 @@ hr{
 
     }
     .f-list li{
+        font-size: 15px;
+    }
+    .navbar {
+        background: #333333;
+        height: 60px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5rem;
+        position: sticky;
+        top:0;
+        z-index: 999;
+    }
+    .navbar__links{
+        font-size: 15px;
+    }
+    .dropdown .drop {
+        font-size: 15px;
+        padding: 1.8rem 0;
+        
+    }
+    .nav-container {
+        height: 60px;
+        padding: 0 10px;
+    }
+    .drop-content{
+        min-width: 60px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .drop-content a{
+        float:none;
+        color: #fff;
+        padding: 0;
+        text-decoration: none;
+        display: block;
+        padding: 0.5rem 0.2rem;
+        text-align: left;
         font-size: 15px;
     }
 
