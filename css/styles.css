@@ -252,7 +252,8 @@ hr{
     }
     .nav-container {
         height: 60px;
-        padding: 0 10px;
+        padding: 0 0px;
+        justify-content: center;
     }
     .drop-content{
         min-width: 60px;
@@ -263,7 +264,6 @@ hr{
     .drop-content a{
         float:none;
         color: #fff;
-        padding: 0;
         text-decoration: none;
         display: block;
         padding: 0.5rem 0.2rem;
