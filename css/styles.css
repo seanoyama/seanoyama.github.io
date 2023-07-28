@@ -80,7 +80,7 @@ nav {
     background-image: url('../images/banner.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 100px;
 }
 .banner{
     width: 2560px;
@@ -133,7 +133,7 @@ nav {
     display: block;
 }
 
-.navbar a:hover, .dropdown:hover .drop:hover{
+.nav-item a:hover, .dropdown:hover .drop:hover{
     background-color: rgb(0, 30, 94);
     color: white;
 }
@@ -207,9 +207,30 @@ hr{
     scale: 100%;
 }
 
+.credit{
+    text-align: center;
+}
+.credit a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.soc-icon{
+    padding: 0 1rem;
+    height: 40px;
+    transition: scale 0.25s;
+}
+.soc-icon:hover{
+    scale: 120%;
+}
+
 
 /*mobile*/
-@media screen and (max-width:500px){
+@media screen and (max-width:900px){
     html, body{
         margin: 0;
         padding: 0;
@@ -247,7 +268,7 @@ hr{
     }
     .dropdown .drop {
         font-size: 15px;
-        padding: 1.8rem 0;
+        padding: 1.9rem 0;
         
     }
     .nav-container {
