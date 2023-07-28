@@ -93,7 +93,8 @@ nav {
     border: none;
     outline: none;
     color: white;
-    padding: 1.8rem 16px;
+    height: 80px;
+    padding: 0 1rem;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -205,9 +206,10 @@ figure{
         padding: 0;
     }
     .nav-item{
+        height: 40px;
     }
     .logo{
-        height: 60px;
+        height: 40px;
     }
     .bottom-images img{
         scale: 60%;
@@ -223,7 +225,7 @@ figure{
     }
     .navbar {
         background: #333333;
-        height: 60px;
+        height: 40px;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -237,16 +239,16 @@ figure{
     }
     .dropdown .drop {
         font-size: 15px;
-        padding: 1.8rem 0;
+        height: 40px;
         
     }
     .nav-container {
-        height: 60px;
+        height: 40px;
         padding: 0 0px;
         justify-content: center;
     }
     .drop-content{
-        min-width: 60px;
+        min-width: 40px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
     }
@@ -262,7 +264,7 @@ figure{
     }
     .gallery{
         height: 150px;
-        transition: scale 0.25s;
     }
+
     
 }

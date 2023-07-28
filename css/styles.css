@@ -97,6 +97,7 @@ nav {
     outline: none;
     color: white;
     height: 80px;
+    padding: 0 1rem;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -201,7 +202,7 @@ hr{
 
 .hi{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 10px 0;
     animation: 1s ease-in 0s 1 fadein;
     scale: 100%;
@@ -289,7 +290,7 @@ hr{
         text-decoration: none;
         display: block;
         padding: 0.5rem 0.2rem;
-        text-align: right;
+        text-align: left;
         font-size: 15px;
     }
 
