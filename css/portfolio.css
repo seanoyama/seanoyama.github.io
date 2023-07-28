@@ -261,7 +261,7 @@ figure{
         font-size: 15px;
     }
     .gallery{
-        height: 200px;
+        height: 150px;
         transition: scale 0.25s;
     }
     
