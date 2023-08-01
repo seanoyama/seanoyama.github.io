@@ -190,6 +190,10 @@ hr{
     height: 300px;
     transition: scale 0.25s;
 }
+iframe.gallery{
+    width: 500px;
+    transition: scale 0.25s;
+}
 
 .gallery:hover{
     scale: 105%;
@@ -197,6 +201,11 @@ hr{
 
 figure{
     text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
 }
 
 /*mobile*/
@@ -264,6 +273,12 @@ figure{
     }
     .gallery{
         height: 150px;
+    }
+    iframe.gallery{
+        width: 250px;
+    }
+    .row{
+        display: block;
     }
 
     
