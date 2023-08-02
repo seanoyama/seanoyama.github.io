@@ -180,18 +180,18 @@ hr{
     justify-content: center;
 }
 
-.gallery{
-    height: 300px;
+.history{
+    width: 500px;
 }
-img.gallery{
+img.history{
     transition: scale 0.25s;
 }
 
-iframe.gallery{
+iframe.history{
     width: 500px;
 }
 
-img.gallery:hover{
+img.history:hover{
     scale: 105%;
 }
 
@@ -271,10 +271,10 @@ figure{
         text-align: left;
         font-size: 15px;
     }
-    .gallery{
-        height: 150px;
+    .history{
+        width: 300px;
     }
-    iframe.gallery{
+    iframe.history{
         width: 250px;
     }
     .row{
