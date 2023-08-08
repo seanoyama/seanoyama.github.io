@@ -1,5 +1,3 @@
-:root{
-}
 
 html, body { margin: 0; padding: 0; } 
 
@@ -140,6 +138,14 @@ hr{
 
 .mobile-invis{
     display: contents;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+    font-size: 19px;
+    flex-direction: row;
 }
 
 /*mobile*/
