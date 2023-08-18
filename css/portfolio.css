@@ -79,10 +79,11 @@ figure{
     }
     
     .gallery{
-        height: 150px;
+        height: 100%;
+        width: 90%;
     }
     iframe.gallery{
-        width: 250px;
+        width: 90%;
     }
     .row{
         display: block;
