@@ -83,6 +83,7 @@ figure{
         width: 90%;
     }
     iframe.gallery{
+        height:100%;
         width: 90%;
     }
     .row{

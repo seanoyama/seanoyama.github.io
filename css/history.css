@@ -94,10 +94,10 @@ figure{
 
     }
     .history{
-        width: 300px;
+        width: 90%;
     }
     iframe.history{
-        width: 250px;
+        width: 90%;
     }
     .row{
         display: block;
