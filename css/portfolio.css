@@ -49,6 +49,21 @@ img.gallery:hover{
     scale: 105%;
 }
 
+.gallery_large{
+    height: 600px;
+}
+img.gallery_large{
+    transition: scale 0.25s;
+}
+
+iframe.gallery_large{
+    width: 1000px;
+}
+
+img.gallery_large:hover{
+    scale: 105%;
+}
+
 figure{
     text-align: center;
 }
@@ -78,11 +93,11 @@ figure{
 
     }
     
-    .gallery{
+    .gallery, .gallery_large{
         height: 100%;
         width: 90%;
     }
-    iframe.gallery{
+    iframe.gallery, iframe.gallery_large{
         height:100%;
         width: 90%;
     }
