@@ -1,1 +1,1 @@
-# sean-oyama.github.io
+# seanoyama.github.io
