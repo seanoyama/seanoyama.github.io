@@ -36,6 +36,7 @@ hr{
 
 .gallery{
     height: 300px;
+    border-radius: 15px;
 }
 img.gallery{
     transition: scale 0.25s;
@@ -46,6 +47,22 @@ iframe.gallery{
 }
 
 img.gallery:hover{
+    scale: 105%;
+}
+
+.gallery_small{
+    height: 150px;
+    border-radius: 15px;
+}
+img.gallery_small{
+    transition: scale 0.25s;
+}
+
+iframe.gallery_small{
+    width: 250px;
+}
+
+img.gallery_small:hover{
     scale: 105%;
 }
 
@@ -74,7 +91,7 @@ figure{
 }
 
 .col{
-    max-width: 600px;
+    max-width: 1000px;
 }
 
 /*mobile*/
