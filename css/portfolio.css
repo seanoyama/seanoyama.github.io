@@ -68,6 +68,7 @@ img.gallery_small:hover{
 
 .gallery_large{
     height: 600px;
+    border-radius: 15px;
 }
 img.gallery_large{
     transition: scale 0.25s;
