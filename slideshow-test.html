@@ -6,9 +6,10 @@
         <title>
             Portfolio - Sean O
         </title>
-        
-            <link rel="stylesheet" href="css/portfolio.css">
-            <link rel="stylesheet" href="css/nav-foot.css">
+
+            <!-- <link rel="stylesheet" href="css/portfolio.css"> -->
+            <link rel="stylesheet" href="css/slideshow.css">
+            <!-- <link rel="stylesheet" href="css/nav-foot.css"> -->
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ysabeau+Office">
             <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         
@@ -59,56 +60,103 @@
             
             <div class="row">
                 <figure class="col">
-                    <iframe src="https://youtube.com/embed/lm_m7vMExi8" class="gallery_large" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe src="https://youtube.com/embed/lm_m7vMExi8" class="gallery_large"></iframe>
+                    <figcaption>(Placeholder)</figcaption>
                 </figure>
-                
             </div>
 
             <h1 class="section"><center>3D Models</center></h1>
-            
 
-            <div class="row">
-                <figure class="col">
-                    <iframe class="slideshow" src="https://docs.google.com/presentation/d/e/2PACX-1vSzB53R0cmGz1vlHlYoXPwu9XaXWDGjztKPYmzmOCWs2nL7viWGQwAJPW54eLRjjJ-AOqOrIh1Utrt-/embed?start=true&loop=true&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                </figure>
+            <iframe 
+                src="https://docs.google.com/presentation/d/e/2PACX-1vSzB53R0cmGz1vlHlYoXPwu9XaXWDGjztKPYmzmOCWs2nL7viWGQwAJPW54eLRjjJ-AOqOrIh1Utrt-/embed?start=false&loop=false&delayms=3000"
+                frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+            </iframe>
+            <div class="container">
+                <div class="mySlides">
+                    <div class="numbertext">
+                        1/5
+                    </div>
+                    <img src="images/gang.png" alt="gangu" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">
+                        2/5
+                    </div>
+                    <img src="images/portfolio/cyprezz.png" alt="cyprezz" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">
+                        3/5
+                    </div>
+                    <img src="images/portfolio/avocet.gif" alt="icat" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">
+                        4/5
+                    </div>
+                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXFtMWt3aTN4ZjBjZHMyazVrdmkzeWNobGhicGpwN2JqMXIyOTEzMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A1UvazslFVVWUsDWSN/giphy.gif" alt="" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">
+                        5/5
+                    </div>
+                    <img src="images/portfolio/cat-sitting.gif" alt="barry" class="slideshow-3d" style="width:100%">
+                </div>
+                <!-- arrow buttons -->
+                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <!-- image text -->
+                 <div class="caption-container">
+                    <p id="caption"></p>
+                 </div>
+
+                 <!-- thumbnail -->
+
+                <div class="row">
+                    <div class="column">
+                        <img class="demo cursor" src="images/yokai.png" style="width: 100%" onclick="currentSlide(1)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/yokai.png" style="width: 100%" onclick="currentSlide(2)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/yokai.png" style="width: 100%" onclick="currentSlide(3)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/yokai.png" style="width: 100%" onclick="currentSlide(4)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="images/yokai.png" style="width: 100%" onclick="currentSlide(5)">
+                    </div>
+                </div>
+
+                </div>
+                  
             </div>
-            
-            <!-- <div class="row">
-                <figure class="col">
-                    <img src="images/portfolio/avocet.gif" alt="icat" class="gallery">
-                </figure>
-                <figure class="col">
-                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXFtMWt3aTN4ZjBjZHMyazVrdmkzeWNobGhicGpwN2JqMXIyOTEzMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/A1UvazslFVVWUsDWSN/giphy.gif" alt="" class="gallery">
-                </figure>
-                <figure class="col">
-                    <img src="images/portfolio/cat-sitting.gif" alt="barry" class="gallery">
-                </figure>
-            </div> -->
-
-            <!-- <div class="row">
-                <figure class="col">
-                    <img src="images/portfolio/drill.png" alt="drill" class="gallery">
-                </figure>
-                <figure class="col">
-                    <img src="images/portfolio/toast.png" alt="icat" class="gallery">
-                </figure>
-                <figure class="col">
-                    <img src="images/portfolio/icat.png" alt="icat" class="gallery">
-                </figure>
-            </div> -->
             
 
             <h1 class="section"><center>2D Art Gallery</center></h1>
-            <div class="row">
-                <figure class="col">
-                    <iframe class="slideshow" src="https://docs.google.com/presentation/d/e/2PACX-1vT7HKkJLejaQVKRtiHslCvhujpysPO-f2MMD99aT73q8jXdiQsc7NYHCTkth8E9hdQNbxOEHtDewgHv/embed?start=true&loop=true&delayms=5000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                </figure>
-            </div>
+                    <img src="https://i.imgur.com/yPn1Ehi.jpeg" class="gallery">
+                    <img src="https://i.imgur.com/EMcmGOc.jpeg" class="gallery">
+                    <img src="https://i.imgur.com/atdL7qv.jpeg" alt="torbot" class="gallery">
+            
+                    <img src="https://i.imgur.com/6u86SBT.jpeg" class="gallery">
+                    <img src="images/portfolio/snail.png" alt="snail" class="gallery">
+                                
+                    <img src="https://i.imgur.com/HKeHITW.jpeg" alt="Elaine" class="gallery">
+                    <img src="images/portfolio/nadia.png" alt="Nadia" class="gallery">
+            
+                    <img src="https://i.imgur.com/Xxph9fP.png" class="gallery">
+            
+                    <img src="https://i.imgur.com/hmehxrr.jpeg" alt="torbot" class="gallery">
+            
+                    <img src="https://i.imgur.com/zDdnxC6.png" class="gallery">
             
         
             <h1 class="section"><center>Published Games</center></h1>
 
-            <div class="row-col">
+            <div class="row">
                 <figure class="col">
                     <a href="https://seanno.itch.io/slimes-the-limit" target="_blank">
                         <img src="https://img.itch.zone/aW1nLzE3NDE4MTc4LnBuZw==/315x250%23c/OA78rc.png" class="gallery">
@@ -140,8 +188,8 @@
                     <a href="https://www.planetminecraft.com/data-pack/yokais-the-sensation-of-summer/">
                         <img src="https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/837/14541496-thumbnail_m.webp" class="gallery_small">
                     </a>
-                <!-- </figure> -->
-                <!-- <figure class="col"> -->
+                </figure>
+                <figure class="col">
                     <a href="https://www.planetminecraft.com/data-pack/yokais-s-headphones/">
                         <img src="https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/926/14228016_m.webp" class="gallery_small">
                     </a>
@@ -154,8 +202,8 @@
                     <a href="https://www.planetminecraft.com/data-pack/yokais-s-freezerays/">
                         <img src="https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/803/15195447-thumbnail_m.webp" class="gallery_small">
                     </a>
-                <!-- </figure> -->
-                <!-- <figure class="col"> -->
+                </figure>
+                <figure class="col">
                     <a href="https://www.planetminecraft.com/data-pack/critters-of-spring/">
                         <img src="https://static.planetminecraft.com/files/image/minecraft/data-pack/2021/261/14252916-untitled_m.webp" class="gallery_small">
                     </a>
@@ -174,22 +222,22 @@
             <h1 class="section"><center>Animations</center></h1>
             <div class="row">
                 <figure class="col">
-                    <iframe src="https://www.youtube.com/embed/R7D8bstrHEc" class="gallery" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe src="https://www.youtube.com/embed/R7D8bstrHEc" class="gallery"></iframe>
                     <figcaption>Build 'till you Climb - 2024</figcaption>
                 </figure>
                 <figure class="col">
-                    <iframe src="https://www.youtube.com/embed/D6gb1yrKTNY" class="gallery" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe src="https://www.youtube.com/embed/D6gb1yrKTNY" class="gallery"></iframe>
                     <figcaption>A Supercharged Day - 2023</figcaption>
                 </figure>
                 
             </div>
             <div class="row">
                 <figure class="col">
-                    <iframe src="https://www.youtube.com/embed/qGLeUSfCAcA" class="gallery" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe src="https://www.youtube.com/embed/qGLeUSfCAcA" class="gallery"></iframe>
                     <figcaption>A Series of Safety - 2023</figcaption>
                 </figure>
                 <figure class="col">
-                    <iframe src="https://www.youtube.com/embed/CGEs9O34MBU" class="gallery" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    <iframe src="https://www.youtube.com/embed/CGEs9O34MBU" class="gallery"></iframe>
                     <figcaption>Safety Animation Award Submission - 2022</figcaption>
                 </figure>
                 
