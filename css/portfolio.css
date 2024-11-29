@@ -89,6 +89,11 @@ img.gallery_large:hover{
     aspect-ratio: 16/9;
     
 }
+.slideshow-vertical {
+    width: 40%;
+    aspect-ratio: 3/4;
+    
+}
 
 figure{
     text-align: center;
@@ -122,7 +127,7 @@ figure{
         margin: auto;
 
     }
-    .slideshow, .gallery_large{
+    .slideshow, .slideshow-vertical,.gallery_large{
         width:100%;
     }
     
