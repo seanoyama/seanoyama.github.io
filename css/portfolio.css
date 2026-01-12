@@ -65,6 +65,7 @@ iframe.gallery_small{
 
 img.gallery_small:hover{
     scale: 105%;
+    /* box-shadow: 0 0 0 200px rgba(0,0,0,0.1) inset; */
 }
 
 .gallery_large{
@@ -85,12 +86,12 @@ img.gallery_large:hover{
 }
 
 .slideshow {
-    width: 70%;
+    width: 50%;
     aspect-ratio: 16/9;
     
 }
 .slideshow-vertical {
-    width: 40%;
+    width: 30%;
     aspect-ratio: 3/4;
     
 }
